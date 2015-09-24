@@ -1,0 +1,767 @@
+/* Main page */
+
+body
+{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+}
+
+#HeaderMainPageDiv
+{
+	width:100%;
+	height:30px;
+	background-color:#090;
+	overflow:hidden;
+}
+
+#HeaderMainPageDiv #leftTab
+{
+	width:25%;
+	height:30px;
+	background-color:red;
+	float:left
+}
+
+#HeaderMainPageDiv #rightTab
+{
+	width:25%;
+	height:30px;
+	background-color:red;
+	float:right
+}
+
+#sorokaMap
+{
+	width:100%;
+	height:300px;
+	background-color:#036;
+}
+
+#sorokaIcons
+{
+	overflow:hidden;
+	width:100%;
+	background-color:#999
+}
+
+
+/* Blog page */
+
+#ContentBlogPageDiv
+{
+	width:100%;
+	overflow:hidden;
+}
+
+#BlogImg
+{
+	width:30%;
+	height:100px;
+	background-color:#090;
+	float:right;
+}
+
+#BlogText { 
+	width:67%;
+	height:100px;
+	float:left;
+	text-align:right;
+	font-size:20px;
+}
+
+
+
+#bigImage
+{
+	width:100%;
+	/* height:200px; */
+	background-color:#960;
+	margin-top:10px;
+}
+
+#ArticleTextInfo
+{
+	width:100%;
+}
+
+#ArticleTextInfo p
+{
+	width:90%;
+	text-align:right;
+	font-size:14px;
+}
+
+#articleTitle
+{
+	font-size:24px;
+	font-weight:bold;
+	text-align:right;
+	padding-bottom:0px;
+}
+
+@media only screen and (max-width:1280px) 
+{
+    header
+    {
+        background-color:#00ac36;
+        color:White;
+        width:100%;
+        font-family:Arial;
+        font-size:35px;
+        float:right;      
+    }
+	
+    header div:nth-child(1)
+    {
+        float: right;
+        width: 15%;
+    }
+	
+    header div:nth-child(2)
+    {
+        padding-top:3%;
+        float: right;
+        text-align: center;
+		font-size:22px;
+		width:68%;
+		font-family:Verdana, Geneva, sans-serif;
+    }
+	
+    header div:nth-child(3)
+    {
+        float:left;
+        width: 15%;
+    }
+}
+
+    .search
+    {
+         background-color:#2a2a2a;
+         width:100%;
+         float:right;
+		 direction:rtl;
+    }
+     .search #inputSearch
+    {
+        float: right;
+        width: 68%;
+		font-size:20px;
+		padding:10px 20px 10px 0;
+    }
+    #searchInput
+    {
+        width:100%;
+		padding:5px 5px 5px 2px;  
+    }
+	
+    .search #inputSearchImg
+    {
+        float: right; 
+        width:30px;
+		padding-right:20px;
+		padding-top:10px;
+    }
+	
+    #article
+    {
+        width:100%;
+        float:right;  
+        background-color:#e8e8e8;      
+    }
+	
+	.articlesContacts
+	{
+		width:100%;
+        float:right;
+        border-top: solid #2f2f2f;
+	}
+	
+    .story
+    {
+        width:100%;
+        float:right;
+        background-image:url("../img/main/storyBg.jpg");
+        background-repeat: repeat-x;      
+        color:#00ac36;
+        font-size:20px;
+        font-weight:bold;
+        border-top: solid #e8e8e8;
+		height:105px;
+		overflow-y: hidden;
+    }
+	
+     .story div:nth-child(1)
+    {
+        float: right;
+        width: 30%;  
+        background-color:#00ac36; 
+        padding-left:5%;
+		height:105px;    
+    }
+    
+     .story div:nth-child(2)
+    {
+        float: right;
+		text-align:center;
+        width:70%;
+        padding:41px 10px;
+		color:#00ac36;
+		font-size:18px;
+		height:105px;
+    }
+    
+    
+	.story1
+    {
+        width:100%;
+        float:right;
+        background-repeat: repeat-x;      
+        color:#00ac36;
+        font-size:20px;
+        font-weight:bold;
+       
+		height:105px;
+		overflow-y: hidden;
+    }
+	
+	 .story1 div:nth-child(1)
+    {
+        float: right;
+        width: 30%;  
+        background-color:#00ac36; 
+        padding-left:5%;  
+		height:105px;   
+    }
+    
+     .story1 div:nth-child(2)
+    {
+        float: right;
+		text-align:center;
+        width:70%;
+        padding:41px 10px;
+		color:#00ac36;
+		font-size:18px;
+		height:105px;
+    }
+    
+    
+    /* Blog -2-- page */
+    
+    .pageTitle
+    {
+        background-color:#2f2f2f;
+        color:White;
+        font-size:20px;
+        width:100%;
+        float:right;
+        text-align:center;
+        padding:10px 0 10px 0;
+        background-image:url("../img/main/titBg.jpg");
+        background-repeat: repeat-x;      
+    }
+    .pageTitle div:nth-child(1)
+     {
+         width: 4%;
+        float: right;
+        padding-right: 14px;
+        padding-top: 6px;
+     }
+     .pageTitle div:nth-child(2)
+     {
+         width:80%;
+         float:right;
+         padding-top: 7px;
+     }
+     .storyPic
+     {
+         float:right;
+         width:100%;
+         height:240px; 
+         overflow:hidden;         
+     }
+     .articles
+     {
+        width:100%;
+        float:right;
+        border-top: solid #2f2f2f;		
+     }
+     .articleLine
+     {
+        float:right;
+        width:100%; 
+        height: 66px;
+		padding-top:-10px;
+		background-color:red;
+     }
+	 
+	 .contactLine
+	 {
+		float:right;
+        width:100%; 
+	 }
+	 
+     .blueArticle
+     {
+         background-color:#377fba;
+         color:#377fba;         
+     }
+      .greenArticle
+     {         
+         background-color:#00ac36;
+         color:#00ac36;         
+     }
+     .articleDetails
+     {
+        float: right;
+        background-color: White;
+        margin-right: 5%;
+        text-align:right;
+        width: 95%;
+        padding:12px 30px 30px 0;
+        font-weight:bold;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:16px;
+     }
+	 
+	  .conDetails
+     {
+        float: right;
+        background-color: White;
+        margin-right: 5%;
+        text-align:right;
+        width: 95%;
+        padding:12px 10px 10px 0;
+        font-weight:bold;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:16px;
+     }
+	 .contactInfo
+	 {
+		 float:right;
+		 width:70%;
+		 background-color:white;
+	 }
+	 .contactPhone
+	 {
+		 float:left;
+		 width:30%;
+		 background-color:white
+	 }
+	 
+	 .articleDetail
+	 { 
+        float: right;
+        background-color: White;
+        margin-right: 5%;
+        height:50px;
+        text-align:right;
+        width: 95%;
+        padding:12px 10px 10px 0;
+        font-weight:bold;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:16px;
+	 }
+	 
+     .DrName
+     {
+         color:Black;
+         font-size:14px;
+		 background-color:white;
+		 direction:rtl;
+		 padding-left:5px;
+     }
+     .dateContact
+     {
+          font-size:13px;
+     }
+     
+    
+    /* Blog -3-- page */
+    
+    .articleTitle
+    {
+        padding:10px 14px 10px 10px;
+        font-size:24px;
+        float:right;
+        color:#00ac36;            
+    }
+    .txt
+    {
+        padding:0px 14px 10px 20px;
+        font-size:18px;
+        float:right;  
+		direction:rtl;		
+    }
+    
+    /* index-- page */
+   
+	
+    .mapPic
+    {
+        float: right;
+        width: 100%;
+        overflow: hidden; 
+		padding:0;
+		margin:0px;
+		       
+    }
+    hr
+    {
+        display:block;
+        border:0;
+        border-top:3px solid #367fbb;
+        margin:0;
+		margin-top:-7px;
+        padding:0;
+        width:100%;
+        padding-bottom:2%;
+        float:right;
+    }
+    .mainMenu
+    {
+        float: left;
+		margin-left:2%;
+        width: 95%;
+        padding-bottom:5%;
+    }
+    
+    .mainMenuBtn
+    {
+        float: right;
+        width: 31%;
+        text-align:center;        
+    }
+    .mainMenuBtnMidDiv
+    {
+        margin:0 2% 0 2%;
+    }
+    .mainMenuBtn span
+    {
+        font-size:14px;
+        color:#00ac36;
+        font-weight:bold;
+        
+    }
+    
+    /*SIDE MENU*/
+     .sideMenu
+     {
+        display: block;
+        width: 130px;
+        padding: 28px;
+        background-color: #2f2f2f;
+        position:fixed;
+        top:0;
+        left:0;
+        font-size:15px;
+        text-align:center;
+     }
+     
+     .sideMenuBtn
+     {
+        padding-bottom: 7px;
+     }
+     .sideMenuBtn span
+     {
+         color:White;
+         font-size:16px;
+         text-align:center;
+     }
+	 
+	.user-image {
+	border: 1px solid #999999;
+    border-radius: 50%;
+    padding: 8px;
+    width: 50%;
+	}
+	
+.menu-text 
+{
+    color: #cccccc;
+    font-weight: 500;
+	padding-top:14px;
+	left:24px;
+	 position:relative;
+}
+
+.menuimage
+{
+    left:30px;
+    position:relative;
+}
+
+
+
+	.greeting {
+		color: #ffffff;
+		font-weight: 500;
+	}
+
+	.message {
+		color: #999999;
+	}
+
+	.item-content {
+		background-color: #23262a;
+	}
+     
+
+	.list {
+		margin-bottom: 20px;
+		padding-bottom: 1px;
+		padding-left: 0;
+		padding-top: 1px;
+		position: relative;
+	}
+	
+	ion-side-menu ion-item.item {
+		border-color: #33383e;
+		border-left: medium none #33383e;
+		border-right: medium none #33383e;
+	}
+	
+	ion-side-menu .heading-item .user-image-container {
+		left: 12px;
+		position: absolute;
+		top: 16px;
+		width: 90px;
+	}
+	
+	
+	ion-side-menu ion-item.item .item-content .icon::before {
+    background-color: #3e454c;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 22px;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+}
+	.item-icon-left .icon::before, .item-icon-right .icon::before {
+		display: block;
+		text-align: center;
+		width: 32px;
+	}
+	
+	.menu-text {
+		text-align:right;
+		padding-right:10px;
+	}
+	.menuimage {
+		text-align:right;
+		float:right;
+	}
+     /*ABOUT PAGE*/
+     
+     .aboutPic
+     {
+		 padding:0px;
+		 margin:0px;       
+     }
+     
+    .aboutPic hr
+    {
+		padding:0px;
+		 margin:0px;
+		 width:100%;   
+        color:#00ac36;
+    }
+    .line
+    {
+        border-top: solid #00ac36;
+        float:right;
+        width:100%;
+		margin-top:-4px;
+    }
+    .aboutTitle
+    {
+        padding:10px 14px 10px 0px;
+        font-size:20px;
+        float:right;
+        color:#00ac36;
+        font-weight:bold;
+    }
+    .subTit
+    {
+        padding:0px 14px 10px 10px;
+        font-size:15px;
+        float:right;
+        font-weight:bold;
+    }
+    
+    
+     /*FEEDBACK PAGE*/
+     .questions
+    {         
+        float:right;
+        padding-top:6%;   
+		direction:rtl; 
+		text-align:right;     
+     }
+    .question
+    {
+        float:right;
+        padding:1% 5% 0% 5%;
+        width:90%;
+    }
+    .question span
+    {
+        font-size:18px;
+        font-weight:bold;        
+    }
+    .stars
+    {
+         padding-right:8%;
+    }
+    .star
+    {
+        float:right;
+         width:14%;
+         padding:2% 0 1% 2%;
+    }
+    .starLine
+    {
+        border-top: dotted #3282c7;
+        float:right;
+        margin:10px 21px 10px 0px;
+        width:84%;
+    }
+    .openQuestion
+    {
+        float:left;
+        padding:6% 2% 0% 2%;
+		margin-right:1%;
+        width:100%;
+		direction:rtl;   
+    }
+    #openQuestion
+    {
+        width:90%;
+        height:130px;
+        border: solid #00ac36;
+        color:#4c4c4c;
+        padding-right:10px;
+		margin:10px 11px 10px 0px;
+        padding-top:6px;
+        font-size:15px;
+        text-align:right;
+        font-family:Arial;
+    }
+    #send
+    {
+        color:White;
+        background-color:#00ac36;
+        width:90%;
+        padding:10px 0px 10px 0px;
+        font-size:20px;
+        margin:10px 11px 10px 0px;
+		
+        border:none;
+        font-weight:bold;
+    }
+    
+    
+ /*APPS  PAGE*/
+ .appsMain
+ {
+     
+     padding:5% 0% 5% 0%;
+     width:95%;
+  
+ }
+ .app
+ {
+      float:right;
+      width:49%;
+      padding-bottom:5%;
+      padding-left:5%;
+ }
+ 
+ 
+ 
+ 
+ 
+ .contactMainDiv
+ {
+	 width:100%;
+	 overflow:hidden;
+ }
+ 
+ .coBlue
+ {
+	 float:right; 
+	 width:4%;
+	 background-color:#069;
+	 height:74px;
+	 margin-top:0px;
+ }
+ 
+ .coInfo
+ {
+	 float:right; 
+	 width:75%;
+	 text-align:right;
+	 padding:10px;
+ }
+ 
+ .coIcon
+ {
+	float:left;
+	width:17%;
+ }
+
+ 
+
+.animClass1.ng-enter,  
+.animClass1.ng-leave,  
+.animClass1.ng-enter,  
+.animClass1.ng-leave 
+{
+    top: 0; right: 0; bottom: 0; left: 0;  
+    background: inherit;  
+    -ms-transition: 0.50s ease-in-out;  
+    -webkit-transition: 0.50s ease-in-out;  
+    transition:  0.50s ease-in-out;  
+}  
+
+
+.animClass1.ng-enter {  
+    z-index: 100;  
+    -webkit-transform: translateX(-100%);  
+    transform: translateX(-100%);  
+}  
+.animClass1.ng-enter.ng-enter-active {  
+    -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+}  
+.animClass1.ng-leave {  
+    z-index: 101;  
+    -webkit-transform: translateX(0);  
+    transform: translateX(0);  
+}  
+.animClass1.ng-leave.ng-leave-active {  
+    -webkit-transform: translateX(100%);  
+    transform: translateX(100%);  
+}  
+
+
+
+.video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
